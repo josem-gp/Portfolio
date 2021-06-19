@@ -31,21 +31,22 @@
     position: absolute;
     bottom: 0;
     width: -webkit-fill-available;
-    background: rgba(250,250, 250, 0.9);
-    padding-left: 16px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    // opacity: 0;
-    // visibility: hidden;
-    // transform: translateY(100px);
-    // transition: all .4s ease-in-out;
+    background: rgba(250,250, 250, 0.95);
+    padding-left: $padding * 4;
+    padding-top: $padding * 4;
+    padding-bottom: $padding * 4;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: all .4s ease-in-out;
     h2{
       color: #E43C6E;
-      font-size: 24px;
+      font-size: $font-size * 6;
       font-weight: bold;
     }
     h3 {
-      font-size: 20px;
+      font-size: $font-size * 5;
+      font-weight: bold;
     }
     a {
       text-decoration: none;
@@ -54,8 +55,35 @@
   }
 }
 
-// .project:hover .project-intro{
-//   opacity: 1;
-//   visibility: visible;
-//   transform: translateY(0);
-// }
+.project:hover .project-intro{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.stack-icons {
+  position: absolute;
+  top: 8px;
+  right: 0;
+  display: flex;
+  i {
+    margin-right: $margin * 2;
+  }
+}
+
+.links-project {
+  display: flex;
+  justify-content: space-between;
+  a {
+    color: black;
+    margin-left: $margin * 5;
+    margin-right: $margin * 5;
+    border: 3px solid #E43C6E;
+    padding: ($padding * 0.5)($padding * 2);
+    border-radius: 8px;
+  }
+  a:hover {
+    background: #E43C6E;
+    color: white;
+  }
+}
