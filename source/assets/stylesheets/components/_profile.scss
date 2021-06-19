@@ -45,6 +45,7 @@
 .front-back-others {
   width: 60%;
   margin: 0 auto;
+  margin-top: $margin * 5;
   .icons-grid {
     margin-top: $margin * 3;
     display: grid;
@@ -74,5 +75,17 @@
   }
   #bootstrap {
     color: #493369;
+  }
+  #rails {
+    color: #6C2028;
+  }
+  #postgre {
+    color: #336791;
+  }
+  #oracle {
+    color: #C24532;
+  }
+  #heroku {
+    color: #7E57C2;
   }
 }
