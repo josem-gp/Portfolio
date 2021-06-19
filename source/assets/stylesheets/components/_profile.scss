@@ -49,6 +49,7 @@
     margin-top: $margin * 3;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: ($margin * 2) ($margin * 6);
     width: 60%;
     text-align: center;
   }
@@ -61,5 +62,17 @@
     margin: 0;
     padding: 0;
     font-weight: bold;
+  }
+  #js {
+    color: #DABA3F;
+  }
+  #html {
+    color: #C6442A;
+  }
+  #css {
+    color: #2163AF;
+  }
+  #bootstrap {
+    color: #493369;
   }
 }
