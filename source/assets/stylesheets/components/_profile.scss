@@ -1,7 +1,7 @@
 
 .about {
   height: 100vh;
-  h2{
+  h1{
     padding-top: $padding * 9;
     text-align: center;
     color: #E43C6E;
@@ -13,10 +13,8 @@
 .aboutme-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding-top: $padding * 9;
 }
-
-
-
 
 
 .presentation {
@@ -27,8 +25,19 @@
     width: $width * 150;
     border-radius: 50%;
     border: 3px solid white;
+    display: block;
+    margin: 0 auto;
   }
   p {
     margin-top: $margin * 8;
+  }
+}
+
+.tech-stack {
+  h2 {
+    text-align: center;
+  }
+  hr {
+    border: 2px solid black;
   }
 }
