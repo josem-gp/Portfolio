@@ -19,31 +19,28 @@
 
 
 .project {
-  // background: white;
+  overflow: hidden;
+  position: relative;
   margin-top: $margin * 21;
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center;
-  .horizontal-img {
-    width: 680px;
-    object-fit: cover;
-    display: block;
-    margin: auto;
+  background-position: bottom;
+  .project-intro {
+    position: absolute;
+    bottom: 0;
+    width: -webkit-fill-available;
+    background: black;
+    color: white;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100px);
+    transition: all .4s ease-in-out;
   }
-  .vertical-img {
-    height: 520px;
-    object-fit: cover;
-    display: block;
-    margin: auto;
-  }
-  .project-image{
-    flex-grow: 1;
-  }
-  .project-description {
-    width: 39%;
-    img {
+}
 
-    }
-  }
+.project:hover .project-intro{
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
 }
