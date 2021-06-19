@@ -35,13 +35,15 @@
   .action-btns {
     margin-top: 40px;
     a {
-      color: white;
+      color: #E6E0F8;
       margin: 12px;
-      border: 1px solid white;
+      border: 1px solid #E6E0F8;
       padding: 10px;
     }
     a:hover {
       text-decoration: none;
+      background: #E6E0F8;
+      color: black;
     }
   }
 }
