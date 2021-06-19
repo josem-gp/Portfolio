@@ -1,49 +1,21 @@
 
-// profile picture
-
-.profile-image {
+.about {
+  height: 100vh;
   img{
     width: 300px;
     border-radius: 50%;
     border: 3px solid white;
-  }
+}
 }
 
-.intro {
-  height: 100vh;
+
+
+.presentation {
+  margin-top: $margin * 28;
   display: flex;
-  align-items: center;
-  margin-left: $margin * 28;
-  margin-right: $margin * 28;
-  .subheader-image {
-    margin-left: $margin * 12;
-    h1 {
-      color: white;
-      font-size: 42px;
-    }
-    h2 {
-      color: #E43C6E;
-      font-size: 36px;
-    }
-    h3{
-      color: white;
-      font-size: 20px;
-      margin-top: 36px;
-      line-height: 1.4;
-    }
-  }
-  .action-btns {
-    margin-top: 40px;
-    a {
-      color: #E6E0F8;
-      margin: 12px;
-      border: 1px solid #E6E0F8;
-      padding: 10px;
-    }
-    a:hover {
-      text-decoration: none;
-      background: #E6E0F8;
-      color: black;
-    }
-  }
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  padding-left: 26px;
+  flex-grow: 2;
 }
