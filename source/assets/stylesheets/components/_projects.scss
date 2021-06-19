@@ -8,10 +8,20 @@
   }
 }
 
+.projects-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; //add one more 1fr (to have 4 per row) when more projects are done
+  grid-gap: $margin * 6;
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: $padding * 21;
+}
+
 
 .project {
+  background: white;
   margin-top: $margin * 21;
-  display: flex;
+  height: 200px;
   .horizontal-img {
     width: 680px;
     object-fit: cover;
