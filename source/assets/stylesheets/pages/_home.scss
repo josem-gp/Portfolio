@@ -92,39 +92,3 @@ background: white;
 //   color: white;
 // }
 
-
-
-
-
-.projects {
-  margin: $margin * 28;
-}
-
-
-
-
-.project {
-  margin-top: $margin * 21;
-  display: flex;
-  .horizontal-img {
-    width: 680px;
-    object-fit: cover;
-    display: block;
-    margin: auto;
-  }
-  .vertical-img {
-    height: 520px;
-    object-fit: cover;
-    display: block;
-    margin: auto;
-  }
-  .project-image{
-    flex-grow: 1;
-  }
-  .project-description {
-    width: 39%;
-    img {
-
-    }
-  }
-}

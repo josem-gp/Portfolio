@@ -1,0 +1,36 @@
+.projects {
+  background: #F5F5F5;
+  h1{
+    padding-top: $padding * 9;
+    text-align: center;
+    color: #45474A;
+    font-weight: bold;
+  }
+}
+
+
+.project {
+  margin-top: $margin * 21;
+  display: flex;
+  .horizontal-img {
+    width: 680px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+  }
+  .vertical-img {
+    height: 520px;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+  }
+  .project-image{
+    flex-grow: 1;
+  }
+  .project-description {
+    width: 39%;
+    img {
+
+    }
+  }
+}
