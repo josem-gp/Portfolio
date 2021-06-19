@@ -12,7 +12,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr; //add one more 1fr (to have 4 per row) when more projects are done
   grid-gap: $margin * 6;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   padding-bottom: $padding * 21;
 }
@@ -21,7 +21,10 @@
 .project {
   background: white;
   margin-top: $margin * 21;
-  height: 200px;
+  height: 248px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
   .horizontal-img {
     width: 680px;
     object-fit: cover;
