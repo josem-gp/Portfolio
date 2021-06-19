@@ -32,4 +32,16 @@
       line-height: 1.4;
     }
   }
+  .action-btns {
+    margin-top: 40px;
+    a {
+      color: white;
+      margin: 12px;
+      border: 1px solid white;
+      padding: 10px;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
 }
