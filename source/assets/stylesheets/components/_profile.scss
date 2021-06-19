@@ -24,7 +24,7 @@
   img{
     width: $width * 150;
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid $light-gray;
     display: block;
     margin: 0 auto;
   }
@@ -39,5 +39,27 @@
   }
   hr {
     border: 2px solid black;
+  }
+}
+
+.front-end {
+  width: 60%;
+  margin: 0 auto;
+  .icons-grid {
+    margin-top: $margin * 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 60%;
+    text-align: center;
+  }
+}
+
+
+
+.icon {
+  p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
   }
 }
