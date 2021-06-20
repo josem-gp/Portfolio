@@ -128,10 +128,10 @@
   .front-back-others {
     margin: $margin * 2.5;
     h3 {
-      text-align: center;
+      font-size: $font-size * 4;
+      font-weight: bold;
     }
     .icons-grid {
-      margin: 0;
       display: grid;
       grid-gap: ($margin * 2) ($margin * 6);
       width: 60%;
