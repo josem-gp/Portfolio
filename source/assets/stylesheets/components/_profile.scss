@@ -118,11 +118,13 @@
 }
 
 @media (max-width: 576px) {
+  .presentation {
+    width: 80%;
+  }
   .front-back-others {
   margin: $margin * 2.5;
     .icons-grid {
-      margin-top: $margin * 3;
-      margin-left: $margin * 9;
+      margin: 0;
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-gap: ($margin * 2) ($margin * 6);
