@@ -98,3 +98,49 @@
     color: #7E57C2;
   }
 }
+
+
+@media (max-width: 992px) {
+    .about {
+   height: auto;//delete this when adding more stuff into it
+    h1{
+      padding-top: $padding * 9;
+      text-align: center;
+      color: #45474A;
+      font-weight: bold;
+    }
+  }
+  .aboutme-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: $padding * 9;
+  }
+}
+
+@media (max-width: 576px) {
+  .front-back-others {
+  margin: $margin * 2.5;
+  .icons-grid {
+    margin-top: $margin * 3;
+    margin-left: $margin * 9;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: ($margin * 2) ($margin * 6);
+    width: 60%;
+    text-align: center;
+  }
+}
+
+}
+
+
+// @media (max-width: 768px) {
+//  .projects-grid {
+//   display: grid;
+//   grid-template-columns: 1fr; //add one more 1fr (to have 4 per row) when more projects are done
+//   grid-gap: $margin * 6;
+//   width: 80%;
+//   margin: 0 auto;
+//   padding-bottom: $padding * 21;
+// }
+// }
