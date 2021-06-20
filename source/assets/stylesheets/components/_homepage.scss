@@ -58,15 +58,15 @@
       justify-content: space-between;
       margin-top: 0;
       a {
-        margin: $margin * 1.5;
+        // margin: $margin * 1.5;
         width: 104.03px;
       }
-      a:nth-child(1) {
-        margin-left: 0;
-      }
-      a:nth-child(3) {
-        margin-left: 0;
-      }
+      // a:nth-child(1) {
+      //   margin-left: 0;
+      // }
+      // a:nth-child(3) {
+      //   margin-left: 0;
+      // }
     }
   }
 }
