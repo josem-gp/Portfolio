@@ -39,22 +39,3 @@
     }
   }
 }
-
-
-.icons {
-  position: absolute;
-  top: 2%;
-  right: 0;
-
-  color: white;
-  i {
-    color: white;
-    font-size: $font-size * 7;
-    margin-left: $margin;
-    margin-right: $margin;
-  }
-  i:hover {
-    transform: scale(1.2);
-    transform-origin:top center;
-  }
-}
