@@ -119,6 +119,11 @@
 }
 
 @media (max-width: 576px) {
+  .about {
+    h1 {
+      font-size: $font-size * 8;
+    }
+  }
   .presentation {
     width: 80%;
   }
@@ -132,6 +137,7 @@
       font-weight: bold;
     }
     .icons-grid {
+      margin-left: 0;
       display: grid;
       grid-gap: ($margin * 2) ($margin * 6);
       width: 60%;
@@ -145,6 +151,10 @@
         }
       }
     }
+  }
+  .tech-stack {
+    margin-top: $margin * 8;
+    margin-bottom: $margin * 8;
   }
 }
 

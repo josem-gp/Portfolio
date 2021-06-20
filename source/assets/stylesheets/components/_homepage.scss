@@ -54,6 +54,8 @@
   background-position-x: center;
   }
   .intro {
+    width: 80%;
+    margin: 0 auto;
     .subheader-image {
     margin-left: 0;
     h1 {
@@ -63,16 +65,15 @@
       font-size: $font-size * 8;
     }
     h3 {
-      font-size: $font-size * 5;
+      font-size: $font-size * 4.5;
     }
     }
     .action-btns {
       display: flex;
-      flex-direction: column;
-      align-items: flex-start;
+      justify-content: center;
       a {
         margin: $margin;
-        min-width: 106.03px;
+        font-size: $font-size * 3.5;
         text-align: center;
       }
     }
