@@ -30,6 +30,7 @@
   }
   p {
     margin-top: $margin * 8;
+    text-align: justify;
   }
 }
 
@@ -121,15 +122,28 @@
   .presentation {
     width: 80%;
   }
+  .stack {
+    width: 80%;
+  }
   .front-back-others {
-  margin: $margin * 2.5;
+    margin: $margin * 2.5;
+    h3 {
+      text-align: center;
+    }
     .icons-grid {
       margin: 0;
       display: grid;
-      grid-template-columns: 1fr 1fr;
       grid-gap: ($margin * 2) ($margin * 6);
       width: 60%;
       text-align: center;
+      .icon {
+        p {
+          font-size: $font-size * 3;
+        }
+        img {
+          width: $width * 24;
+        }
+      }
     }
   }
 }

@@ -28,6 +28,7 @@
       font-size: $font-size * 5;
       margin-top: $margin * 9;
       line-height: 1.4;
+      text-align: justify;
     }
   }
   .action-btns {
@@ -55,15 +56,24 @@
   .intro {
     .subheader-image {
     margin-left: 0;
+    h1 {
+      font-size: $font-size * 9;
+    }
+    h2 {
+      font-size: $font-size * 8;
+    }
+    h3 {
+      font-size: $font-size * 5;
+    }
     }
     .action-btns {
-      margin: 0 auto;
-      justify-content: space-between;
-      margin-top: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
       a {
+        margin: $margin;
         min-width: 106.03px;
-        margin-left: 0;
-        margin-right: 0;
+        text-align: center;
       }
     }
   }
