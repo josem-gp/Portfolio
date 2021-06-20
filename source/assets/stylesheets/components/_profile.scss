@@ -1,6 +1,5 @@
 
 .about {
-  height: 100vh; //delete this when adding more stuff into it
   h1{
     padding-top: $padding * 9;
     text-align: center;
@@ -19,7 +18,7 @@
 
 .presentation {
   margin-top: $margin * 14;
-  width: 60%;
+  width: 80%;
   margin: 0 auto;
   img{
     width: $width * 150;
