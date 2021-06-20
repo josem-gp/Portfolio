@@ -1,4 +1,5 @@
 .contact {
+  position: relative;
   height: 100vh; //delete this when adding more stuff into it
   h1{
     padding-top: $padding * 9;
@@ -41,5 +42,20 @@
   }
   i:hover {
     opacity: 0.7;
+  }
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  height: $margin * 8;
+  line-height: $margin * 8;
+  color: white;
+  text-align: center;
+  background: #45474A;
+  width: -webkit-fill-available;
+  p{
+    margin: 0;
+    padding: 0;
   }
 }
