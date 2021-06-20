@@ -120,17 +120,16 @@
 @media (max-width: 576px) {
   .front-back-others {
   margin: $margin * 2.5;
-  .icons-grid {
-    margin-top: $margin * 3;
-    margin-left: $margin * 9;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: ($margin * 2) ($margin * 6);
-    width: 60%;
-    text-align: center;
+    .icons-grid {
+      margin-top: $margin * 3;
+      margin-left: $margin * 9;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-gap: ($margin * 2) ($margin * 6);
+      width: 60%;
+      text-align: center;
+    }
   }
-}
-
 }
 
 

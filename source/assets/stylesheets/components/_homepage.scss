@@ -1,4 +1,10 @@
-
+.header {
+  background-image:url(../images/background.jpg);
+  background-size: cover;
+  background-position-y: center;
+  height: 100vh;
+  position: relative;
+}
 
 .intro {
   position: relative;
@@ -25,6 +31,8 @@
     }
   }
   .action-btns {
+    display: flex;
+    flex-wrap: wrap;
     margin-top: $margin * 10;
     a {
       color: #E6E0F8;
@@ -36,6 +44,29 @@
       text-decoration: none;
       background: #E6E0F8;
       color: black;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .header {
+  background-position-x: center;
+  }
+  .intro {
+    .action-btns {
+      margin: 0 auto;
+      justify-content: space-between;
+      margin-top: 0;
+      a {
+        margin: $margin * 1.5;
+        width: 104.03px;
+      }
+      a:nth-child(1) {
+        margin-left: 0;
+      }
+      a:nth-child(3) {
+        margin-left: 0;
+      }
     }
   }
 }
