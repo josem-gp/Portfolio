@@ -1,13 +1,11 @@
-
 .about {
-  h1{
+  h1 {
     padding-top: $padding * 9;
     text-align: center;
-    color: #45474A;
+    color: #45474a;
     font-weight: bold;
   }
 }
-
 
 .aboutme-grid {
   display: grid;
@@ -15,12 +13,11 @@
   padding-top: $padding * 9;
 }
 
-
 .presentation {
   margin-top: $margin * 14;
   width: 80%;
   margin: 0 auto;
-  img{
+  img {
     width: $width * 150;
     border-radius: 50%;
     border: 3px solid $light-gray;
@@ -37,13 +34,13 @@
   h2 {
     text-align: center;
     font-weight: bold;
-    color: #E43C6E;
+    color: #e43c6e;
   }
   hr {
-    border: 2px solid #E43C6E;
+    border: 2px solid #e43c6e;
   }
   h3 {
-    color: #45474A;
+    color: #45474a;
   }
 }
 
@@ -58,55 +55,20 @@
     margin-top: $margin * 3;
     margin-left: $margin * 9;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: ($margin * 2) ($margin * 6);
     width: 60%;
     text-align: center;
   }
 }
 
-
-
-.icon {
-  p{
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-  }
-  #js {
-    color: #DABA3F;
-  }
-  #html {
-    color: #C6442A;
-  }
-  #css {
-    color: #2163AF;
-  }
-  #bootstrap {
-    color: #493369;
-  }
-  #rails {
-    color: #6C2028;
-  }
-  #postgre {
-    color: #336791;
-  }
-  #oracle {
-    color: #C24532;
-  }
-  #heroku {
-    color: #7E57C2;
-  }
-}
-
-
 @media (max-width: 992px) {
-    .about {
-   height: auto;//delete this when adding more stuff into it
-    h1{
+  .about {
+    height: auto; //delete this when adding more stuff into it
+    h1 {
       padding-top: $padding * 9;
       text-align: center;
-      color: #45474A;
+      color: #45474a;
       font-weight: bold;
     }
   }
@@ -156,4 +118,3 @@
     margin-bottom: $margin * 8;
   }
 }
-
