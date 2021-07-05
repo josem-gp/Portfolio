@@ -1,64 +1,76 @@
-// .header {
-//   background-image:url(../images/background.jpg);
-//   background-size: cover;
-//   background-position-y: center;
-//   height: 100vh;
-//   position: relative;
-// }
+
 
 .header {
-  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  position: relative;
+  background: #26426C;
   height: 100vh;
   overflow: hidden;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  .hero-image{
+    margin-bottom: 44px;
+    img{
+    border-radius: 50%;
+    -webkit-filter: grayscale(100%);
+    width: 400px;
+    }
+  }
 }
 
-// .header {
-//   background-color: #f8f8fb;
-// }
 
 .intro {
   position: relative;
+  overflow: hidden;
   height: 100vh;
   display: flex;
   align-items: center;
   margin-left: $margin * 14;
-  margin-right: $margin * 14;
+  margin-right: $margin * 24;
+  max-width: 40%;
   .subheader-image {
-    margin-left: $margin * 6;
     h1 {
       color: white;
-      font-size: $font-size * 11;
-    }
-    h2 {
-      color: #e43c6e;
-      // color: #28bae2;
-      font-size: $font-size * 9;
+      font-size: $font-size * 15;
+      font-weight: bold;
     }
     h3 {
       color: white;
-      font-size: $font-size * 5;
-      margin-top: $margin * 9;
+      font-size: $font-size * 4.5;
       line-height: 1.4;
       text-align: justify;
+      font-weight: bold;
+    }
+    h2 {
+      color: white;
+      font-size: $font-size * 7;
+      margin-top: $margin * 9;
+      margin-bottom: 0;
+      line-height: 1.4;
+      text-align: justify;
+    }
+    p {
+      color: white;
+      font-size: $font-size * 5;
     }
   }
   .action-btns {
     display: flex;
     flex-wrap: wrap;
-    margin-top: $margin * 10;
+    margin-top: $margin * 15;
     a {
-      color: #e6e0f8;
-      margin: $margin * 3;
-      border: 1px solid #e6e0f8;
-      padding: $padding * 3;
+      color: white;
+      // background: #5C82EF;
+      background: #F2CD62;
+      padding: 10px 24px;
+      font-weight: bold;
+      border-radius: 8px;
+      font-size: 16px;
     }
     a:hover {
       text-decoration: none;
-      background: #e6e0f8;
-      color: black;
+      background: #f4be29;
+      color: white;
     }
   }
 }
@@ -92,4 +104,28 @@
       }
     }
   }
+}
+
+// White squares
+
+.custom-shape-divider-bottom-1625483349 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625483349 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 89px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1625483349 .shape-fill {
+    fill: #FFFFFF;
 }
