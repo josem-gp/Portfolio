@@ -1,0 +1,80 @@
+.tech-stack {
+  position: relative;
+  background: #26426C;
+  height: 100vh;
+  h2 {
+    text-align: left;
+    color: white;
+  }
+  i {
+    margin-right: 12px;
+  }
+  .presentation-me {
+    margin-top: 100px;
+  }
+}
+
+.header-right {
+  width: fit-content;
+  float: right;
+  #h1-right {
+    font-size: 44px;
+    font-weight: bold;
+    text-align: right;
+    color: white;
+  }
+  #hr-right {
+    width: 20%;
+    margin-left: 0;
+    margin-top: 14px;
+    border: 3px solid #5B82EF;
+  }
+}
+
+.icons-flex {
+  background: rgba(255,255,255,.5);
+  display: flex;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  padding: 0;
+  width: 60%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  img {
+    margin-right: 14px;
+    margin-left: 14px;
+    width: 48px;
+  }
+}
+
+
+.stacks.active .icons-flex {
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+// border
+
+.custom-shape-divider-bottom-1625558730 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1625558730 svg {
+    position: relative;
+    display: block;
+    width: calc(203% + 1.3px);
+    height: 178px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1625558730 .shape-fill {
+    fill: #ECC760;
+}
