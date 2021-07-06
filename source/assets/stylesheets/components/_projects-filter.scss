@@ -1,0 +1,51 @@
+.projects-filter {
+  min-height: 100vh;
+  background: #ecc760;
+  position: relative;
+  #h1-left {
+    color: white;
+    letter-spacing: 2px;
+  }
+  #hr-left-blue {
+    width: 6%;
+    margin-left: 0;
+    margin-top: 14px;
+    border: 3px solid #26426C;
+  }
+}
+
+.filter-flex {
+  display: flex;
+  justify-content: center;
+  button {
+    margin-right: 2px;
+    background: white;
+    padding: 2px 60px;
+    font-weight: bold;
+    border: none;
+  }
+}
+
+
+// Separator
+
+.custom-shape-divider-bottom-1625561988 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625561988 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 76px;
+}
+
+.custom-shape-divider-bottom-1625561988 .shape-fill {
+    fill: #26426C;
+}

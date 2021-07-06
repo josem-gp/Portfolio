@@ -15,14 +15,13 @@
   grid-gap: $margin * 6;
   width: 80%;
   margin: 0 auto;
-  padding-bottom: $padding * 21;
+  padding-bottom: 152px;
 }
 
 
 .project {
   overflow: hidden;
   position: relative;
-  margin-top: $margin * 21;
   height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -40,7 +39,7 @@
     transform: translateY(100px);
     transition: all .4s ease-in-out;
     h2{
-      color: #E43C6E;
+      color: #5B82EF;
       font-size: $font-size * 6;
       font-weight: bold;
     }
@@ -78,12 +77,12 @@
     color: black;
     margin-left: $margin * 5;
     margin-right: $margin * 5;
-    border: 3px solid #E43C6E;
+    border: 3px solid #5B82EF;
     padding: ($padding * 0.5)($padding * 2);
     border-radius: 8px;
   }
   a:hover {
-    background: #E43C6E;
+    background: #5B82EF;
     color: white;
   }
 }
