@@ -1,4 +1,5 @@
 .about {
+  position: relative;
   h1 {
     padding-top: $padding * 9;
     text-align: center;
@@ -117,4 +118,28 @@
     margin-top: $margin * 8;
     margin-bottom: $margin * 8;
   }
+}
+
+// Page split
+
+.custom-shape-divider-bottom-1625546522 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1625546522 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 86px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1625546522 .shape-fill {
+    fill: #26426C;
 }

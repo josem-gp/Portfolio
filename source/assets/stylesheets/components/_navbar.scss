@@ -1,12 +1,17 @@
 .navbar-lewagon {
   justify-content: flex-end;
   background: transparent;
-  position: fixed;
+  position: absolute;
   top: 0;
   width: 100%;
   z-index: 1000;
+  padding-right: 100px;
+  padding-top: 20px;
+  font-size: 18px;
   a {
     color: white !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }
 

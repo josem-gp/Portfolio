@@ -30,6 +30,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
+    "contrast-js": "0.0.3",
     "core-js": "^3.6.4",
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
