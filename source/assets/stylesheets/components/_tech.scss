@@ -35,19 +35,20 @@
 }
 
 .icons-flex {
-  background: rgba(255,255,255,.5);
+  background: rgba(255,255,255,.1);
+  filter: brightness(0) invert(1);
   display: flex;
   height: 0;
   overflow: hidden;
   transition: 0.3s;
   padding: 0;
-  width: 60%;
+  width: 36%;
   margin-top: 12px;
   margin-bottom: 12px;
   img {
     margin-right: 14px;
     margin-left: 14px;
-    width: 48px;
+    width: 32px;
   }
 }
 

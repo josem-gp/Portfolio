@@ -59,19 +59,18 @@
     margin-top: $margin * 15;
     a {
       color: white;
-      // background: #5C82EF;
       background: #F2CD62;
       padding: 10px 24px;
       font-weight: bold;
       border-radius: 8px;
       font-size: 16px;
-      animation: effect 0.3s;
-      animation-iteration-count: 2;
     }
     a:hover {
       text-decoration: none;
       background: #f4be29;
       color: white;
+      animation: effect 0.3s;
+      animation-iteration-count: 2;
     }
     @keyframes effect {
       0% {
