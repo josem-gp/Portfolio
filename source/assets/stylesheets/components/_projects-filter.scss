@@ -1,16 +1,106 @@
 .projects-filter {
   min-height: 100vh;
-  background: #ecc760;
+  background: #F9F9F9;
   position: relative;
   #h1-left {
-    color: white;
+    font-weight: bold;
     letter-spacing: 2px;
+    color: #26426C;
   }
   #hr-left-blue {
     width: 6%;
     margin-left: 0;
     margin-top: 14px;
-    border: 3px solid #26426C;
+    border: 3px solid #5B82EF;
+  }
+}
+
+.project-show {
+  display: flex;
+  margin-top: 64px;
+  .project-show-descr {
+    h2 {
+      color: #5B82EF;
+      font-weight: bold;
+      font-size: 34px;
+      margin: 0;
+    }
+    h3 {
+      color: #26426C;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    hr {
+      width: 64%;
+      margin-left: 0;
+      border-top: 3px solid rgba(0, 0, 0, 0.1);
+    }
+    p {
+      text-align: justify;
+    }
+  }
+  .project-show-descr-left {
+    padding-left: 46px;
+    h2 {
+      color: #5B82EF;
+      font-weight: bold;
+      font-size: 34px;
+      margin: 0;
+    }
+    h3 {
+      color: #26426C;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    hr {
+      width: 64%;
+      margin-left: 0;
+      border-top: 3px solid rgba(0, 0, 0, 0.1);
+    }
+    p {
+      text-align: justify;
+    }
+  }
+}
+
+.stack-icons-show {
+  display: flex;
+  i {
+    margin-right: $margin * 2;
+    font-size: 32px;
+  }
+}
+
+.links-project-show {
+  display: flex;
+  margin-top: 28px;
+  .github-btn {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    width: 105.19px;
+    margin-right: $margin * 5;
+    background: #5B82EF;
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  .github-btn:hover {
+    background: #3466ef;
+    text-decoration: none;
+  }
+  .project-btn {
+    color: white;
+    font-size: 12px;
+    margin-right: $margin * 5;
+    background: #f2cd62;
+    padding: 8px 24px;
+    border-radius: 6px;
+    font-weight: bold;
+  }
+  .project-btn:hover {
+    background: #f4be29;
+    text-decoration: none;
   }
 }
 

@@ -1,9 +1,10 @@
 .navbar-lewagon {
   justify-content: flex-end;
   background: transparent;
-  position: absolute;
+  position: absolute !important;
   top: 0;
-  width: 100%;
+  right: 0;
+  width: fit-content;
   z-index: 1000;
   padding-right: 100px;
   padding-top: 20px;

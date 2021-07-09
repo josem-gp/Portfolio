@@ -13,4 +13,3 @@ const accordeon = () => {
 
 console.log(accordeon());
 
-
