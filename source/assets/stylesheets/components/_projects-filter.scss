@@ -109,10 +109,14 @@
   justify-content: center;
   button {
     margin-right: 2px;
-    background: white;
+    background: transparent;
     padding: 2px 60px;
     font-weight: bold;
     border: none;
+  }
+  .active {
+  background: #5B82EF;
+  color: white;
   }
 }
 

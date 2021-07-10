@@ -7,6 +7,17 @@
     <div class="projects-showcase">
       <%= partial 'layouts/partials/devices' %>
     </div>
+    <div class="projects-box">
+      <div class="filter-flex">
+        <button data-filter="all" class="filter-btn active">ALL</button>
+        <button data-filter="rails" class="filter-btn">RUBY/RAILS</button>
+        <button data-filter="react" class="filter-btn">REACT-JS</button>
+        <button data-filter="api" class="filter-btn">APIS</button>
+      </div>
+      <div class="projects-grid">
+        <%= partial 'layouts/partials/project_filter' %>
+      </div>
+    </div>
   </div>
   <div class="custom-shape-divider-bottom-1625561988">
     <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
