@@ -5,6 +5,7 @@ const accordeon = () => {
   const stacks = document.querySelectorAll('.stacks');
   stacks.forEach((stack) => {
     stack.addEventListener('click', (event) => {
+      event.currentTarget.firstElementChild.firstChild.classList.toggle('downwards');
       event.currentTarget.classList.toggle('active');
       }
     );
@@ -56,3 +57,32 @@ const filter = () => {
 }
 
 filter();
+
+
+const changeNavBar = () => {
+  const navBar = document.querySelector('.navbar');
+  window.addEventListener("scroll", (event) => {
+    console.log('scrolling!');
+    const getOffset = (el) => {
+      const rect = el.getBoundingClientRect();
+      const objectDirection = {
+        left: rect.left + window.scrollX,
+        top: rect.top + window.scrollY
+      };
+      if(objectDirection.top < 714) {
+        console.log('Home!');
+      } else if(objectDirection.top < 1403) {
+        console.log('About!');
+      } else if(objectDirection.top < 2125) {
+        console.log('TechStack!');
+      } else if(objectDirection.top < 4512) {
+        console.log('Portfolio!');
+      } else {
+        console.log('Contact!');
+      }
+    }
+    getOffset(navBar);
+  });
+}
+
+changeNavBar();

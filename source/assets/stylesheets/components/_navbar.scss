@@ -1,13 +1,12 @@
 .navbar-lewagon {
-  justify-content: flex-end;
-  background: transparent;
-  position: absolute !important;
+  justify-content: flex-end !important;
+  background: #26426C;
+  position: sticky !important;
   top: 0;
   right: 0;
-  width: fit-content;
+  // width: fit-content;
   z-index: 1000;
   padding-right: 100px;
-  padding-top: 20px;
   font-size: 18px;
   a {
     color: white !important;
