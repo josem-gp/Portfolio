@@ -1,6 +1,3 @@
-import 'bootstrap';
-
-
 const accordeon = () => {
   const stacks = document.querySelectorAll('.stacks');
   stacks.forEach((stack) => {
@@ -75,28 +72,29 @@ const changeNavBar = () => {
         left: rect.left + window.scrollX,
         top: rect.top + window.scrollY
       };
-      if(objectDirection.top < 714) {
+      console.log(objectDirection.top);
+      if(objectDirection.top < 645) {
         console.log('home!!');
           homeBtn.classList.contains('scroll-color') ? '' : homeBtn.classList.add('scroll-color');
           aboutBtn.classList.contains('scroll-color') ? aboutBtn.classList.remove('scroll-color') : '';
           techBtn.classList.contains('scroll-color') ? techBtn.classList.remove('scroll-color') : '';
           portfolioBtn.classList.contains('scroll-color') ? portfolioBtn.classList.remove('scroll-color') : '';
           contactBtn.classList.contains('scroll-color') ? contactBtn.classList.remove('scroll-color') : '';
-      } else if(objectDirection.top < 1403) {
+      } else if(objectDirection.top < 1330) {
         console.log('about!!');
           aboutBtn.classList.contains('scroll-color') ? '' : aboutBtn.classList.add('scroll-color');
           homeBtn.classList.contains('scroll-color') ? homeBtn.classList.remove('scroll-color') : '';
           techBtn.classList.contains('scroll-color') ? techBtn.classList.remove('scroll-color') : '';
           portfolioBtn.classList.contains('scroll-color') ? portfolioBtn.classList.remove('scroll-color') : '';
           contactBtn.classList.contains('scroll-color') ? contactBtn.classList.remove('scroll-color') : '';
-      } else if(objectDirection.top < 2125) {
+      } else if(objectDirection.top < 2055) {
         console.log('stack!!');
           techBtn.classList.contains('scroll-color') ? '' : techBtn.classList.add('scroll-color');
           homeBtn.classList.contains('scroll-color') ? homeBtn.classList.remove('scroll-color') : '';
           aboutBtn.classList.contains('scroll-color') ? aboutBtn.classList.remove('scroll-color') : '';
           portfolioBtn.classList.contains('scroll-color') ? portfolioBtn.classList.remove('scroll-color') : '';
           contactBtn.classList.contains('scroll-color') ? contactBtn.classList.remove('scroll-color') : '';
-      } else if(objectDirection.top < 4512) {
+      } else if(objectDirection.top < 4600) {
         console.log('portfolio!!');
           portfolioBtn.classList.contains('scroll-color') ? '' : portfolioBtn.classList.add('scroll-color');
           homeBtn.classList.contains('scroll-color') ? homeBtn.classList.remove('scroll-color') : '';

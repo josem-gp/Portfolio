@@ -2,7 +2,7 @@
 
 .contact {
   position: relative;
-  height: 70vh; //delete this when adding more stuff into it
+  height: 91vh; //delete this when adding more stuff into it
   background: #26426C;
   .container {
     padding-left: 0 !important;
@@ -64,13 +64,16 @@
 }
 
 .footer {
+  background: #F9F9F9;
+  color: #26426C;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
   position: absolute;
   bottom: 0;
   height: $margin * 8;
   line-height: $margin * 8;
-  color: white;
   text-align: center;
-  background: #45474A;
   width: -webkit-fill-available;
   p{
     margin: 0;

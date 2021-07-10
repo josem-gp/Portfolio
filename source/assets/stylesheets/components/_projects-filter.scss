@@ -1,3 +1,10 @@
+.project-divider {
+  margin-top: 0;
+  margin-bottom: 7rem;
+  width: 40%;
+  border: 1px solid lightgray;
+}
+
 .projects-filter {
   min-height: 100vh;
   background: #F9F9F9;
@@ -17,7 +24,7 @@
 
 .project-show {
   display: flex;
-  margin-top: 64px;
+  margin-top: 100px;
   .project-show-descr {
     h2 {
       color: #5B82EF;
@@ -74,45 +81,48 @@
 .links-project-show {
   display: flex;
   margin-top: 28px;
-  .github-btn {
-    color: white;
-    font-size: 12px;
-    text-align: center;
-    width: 105.19px;
-    margin-right: $margin * 5;
-    background: #5B82EF;
-    padding: 8px 24px;
-    border-radius: 6px;
-    font-weight: bold;
-  }
-  .github-btn:hover {
-    background: #3466ef;
-    text-decoration: none;
-  }
-  .project-btn {
-    color: white;
-    font-size: 12px;
-    margin-right: $margin * 5;
-    background: #f2cd62;
-    padding: 8px 24px;
-    border-radius: 6px;
-    font-weight: bold;
-  }
-  .project-btn:hover {
-    background: #f4be29;
-    text-decoration: none;
-  }
+}
+
+.github-btn {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  width: 105.19px;
+  margin-right: $margin * 5;
+  background: #5B82EF;
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.github-btn:hover {
+  background: #3466ef;
+  text-decoration: none;
+}
+.project-btn {
+  color: white;
+  font-size: 14px;
+  margin-right: $margin * 5;
+  background: #f2cd62;
+  padding: 8px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+.project-btn:hover {
+  background: #f4be29;
+  text-decoration: none;
 }
 
 .projects-box {
   padding-bottom: 30vh;
+  margin-top: 6rem;
 }
 
 .filter-flex {
   display: flex;
   justify-content: center;
   button {
-    margin-right: 2px;
+    color: #26426C;
+    width: 215.61px;
     background: transparent;
     padding: 2px 60px;
     font-weight: bold;
