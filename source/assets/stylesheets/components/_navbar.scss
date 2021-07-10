@@ -14,9 +14,15 @@
     padding-right: 20px !important;
   }
   a:hover {
-    color: #5C82EF !important;
+    font-weight: bold !important;
+    color: #f2cd62 !important;
+  }
+  .scroll-color {
+    // font-weight: bold !important;
+    color: #f2cd62 !important;
   }
 }
+
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
@@ -25,3 +31,4 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
