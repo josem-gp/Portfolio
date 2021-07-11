@@ -238,39 +238,43 @@
 @media (max-width: 576px) {
   .projects-grid {
     grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
   }
   .projects-box .filter-flex button {
-    font-size: 14px;
-    padding: 2px 8px;
+    font-size: 11px;
+    padding: 2px 2px;
+    margin: 2px;
   }
   .project {
-    width: 182px;
-    height: 168px;
+    width: 156px;
+    height: 156px;
     .project-intro {
       h2{
-        font-size: 20px;
+        font-size: 16px;
       }
       h3 {
-        font-size: 14px;
+        font-size: 12px;
       }
       a {
-        font-size: 8px;
+        font-size: 7px;
       }
       p {
-        font-size: 10px;
+        display: none;
       }
     }
     .github-btn {
-    width: 79.58px;
-    padding: 8px 20px;
+      display: none;
     }
     .project-btn {
-      width: 79.58px;
-      padding: 8px 20px;
+      width: auto;
+      padding: 6px 12px;
     }
   }
   .stack-icons i {
     margin-right: 1px;
+  }
+  .project .project-intro {
+    padding: 8px;
   }
 }
 
