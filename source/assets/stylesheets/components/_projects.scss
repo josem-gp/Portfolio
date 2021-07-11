@@ -177,6 +177,12 @@
 
 @media (max-width: 768px) {
   .projects-filter {
+    #h1-blue-left {
+      font-size: 38px;
+    }
+    #hr-blue-left {
+      width: 20%;
+    }
     .container {
       width: 100%;
       padding-right: 15px !important;
@@ -195,6 +201,9 @@
     }
     .project-show-descr-left {
       padding-left: 0;
+      h2 {
+        font-size: 32px;
+      }
     }
   }
   .project-show:nth-child(1) {

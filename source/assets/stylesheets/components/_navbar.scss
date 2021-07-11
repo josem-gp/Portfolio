@@ -42,3 +42,11 @@
 .navbar-dark .navbar-toggler {
     border-color: rgba(255,255,255,.5) !important;
 }
+
+// Media Queries for mobile/small screen
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .nav-item {
+    font-size: 14px;
+  }
+}
