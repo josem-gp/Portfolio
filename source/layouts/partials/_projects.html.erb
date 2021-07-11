@@ -1,8 +1,8 @@
 <div id= "project" class="projects-filter">
   <div class="container">
     <div data-aos="fade-right">
-      <h1 id="h1-left">PROJECTS.</h1>
-      <hr id="hr-left-blue">
+      <h1 id="h1-blue-left">PROJECTS.</h1>
+      <hr id="hr-blue-left">
     </div>
     <div class="projects-showcase">
       <%= partial 'layouts/partials/devices' %>
@@ -14,8 +14,10 @@
         <button data-filter="react" class="filter-btn">REACT-JS</button>
         <button data-filter="api" class="filter-btn">API</button>
       </div>
-      <div class="projects-grid">
-        <%= partial 'layouts/partials/project_filter' %>
+      <div class="projects-flex">
+        <div class="projects-grid">
+          <%= partial 'layouts/partials/project_filter' %>
+        </div>
       </div>
     </div>
   </div>
