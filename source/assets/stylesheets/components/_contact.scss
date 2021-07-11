@@ -101,13 +101,15 @@
 @media (max-width: 768px) {
   .contact {
     #h1-center-white {
-      font-size: 38px;
+      font-size: 34px;
     }
     h3 {
       font-size: 16px;
     }
     p {
       font-size: 8px;
+      padding-left: 10px;
+      padding-right: 10px;
     }
   }
 }
