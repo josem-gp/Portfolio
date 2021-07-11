@@ -175,10 +175,15 @@
   .header {
     grid-template-columns: 1fr;
     .intro {
-    grid-row: 2;
-    margin-bottom: 100px;
-    padding-left: 10%;
-    padding-right: 10%;
+      grid-row: 2;
+      margin-bottom: 100px;
+      padding-left: 10%;
+      padding-right: 10%;
+      .subheader-image {
+        h1 {
+          font-size: 34px;
+        }
+      }
     }
     .hero-image {
       margin-bottom: 44px;
@@ -187,7 +192,7 @@
       display: flex;
       justify-content: center;
       img {
-        width: 330px;
+        width: 275px;
       }
     }
   }
