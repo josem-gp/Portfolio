@@ -1,14 +1,76 @@
 
+// Basic CSS for header and the two main boxes (hero-image & intro)
 
 .header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   position: relative;
   background: #26426C;
-  height: 100vh;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
+  min-height: 100vh;
   align-items: center;
+  .intro {
+    padding-left: 20%;
+    .subheader-image {
+      h1 {
+        color: white;
+        font-size: $font-size * 15;
+        font-weight: bold;
+      }
+      h3 {
+        color: white;
+        font-size: $font-size * 4.5;
+        line-height: 1.4;
+        text-align: justify;
+        font-weight: bold;
+      }
+      h2 {
+        color: white;
+        font-size: $font-size * 7;
+        margin-top: $margin * 9;
+        margin-bottom: 0;
+        line-height: 1.4;
+      }
+      p {
+        color: white;
+        font-size: $font-size * 5;
+      }
+    }
+    .action-btns {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: $margin * 15;
+      a {
+        color: white;
+        background: #F2CD62;
+        padding: 10px 24px;
+        font-weight: bold;
+        border-radius: 8px;
+        font-size: 16px;
+      }
+      a:hover {
+        text-decoration: none;
+        background: #f4be29;
+        color: white;
+        animation: effect 0.3s;
+        animation-iteration-count: 2;
+      }
+      @keyframes effect {
+        0% {
+            transform: rotateZ(4deg);
+        }
+
+        50% {
+            transform: rotateZ(0deg);
+        }
+
+        10% {
+            transform: rotateZ(-4deg);
+        }
+      }
+    }
+  }
   .hero-image{
+    padding-left: 20%;
     margin-bottom: 44px;
     img{
     border-radius: 50%;
@@ -19,106 +81,106 @@
 }
 
 
-.intro {
-  position: relative;
-  overflow: hidden;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  margin-right: $margin * 24;
-  max-width: 40%;
-  .subheader-image {
-    h1 {
-      color: white;
-      font-size: $font-size * 15;
-      font-weight: bold;
-    }
-    h3 {
-      color: white;
-      font-size: $font-size * 4.5;
-      line-height: 1.4;
-      text-align: justify;
-      font-weight: bold;
-    }
-    h2 {
-      color: white;
-      font-size: $font-size * 7;
-      margin-top: $margin * 9;
-      margin-bottom: 0;
-      line-height: 1.4;
-      text-align: justify;
-    }
-    p {
-      color: white;
-      font-size: $font-size * 5;
-    }
-  }
-  .action-btns {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: $margin * 15;
-    a {
-      color: white;
-      background: #F2CD62;
-      padding: 10px 24px;
-      font-weight: bold;
-      border-radius: 8px;
-      font-size: 16px;
-    }
-    a:hover {
-      text-decoration: none;
-      background: #f4be29;
-      color: white;
-      animation: effect 0.3s;
-      animation-iteration-count: 2;
-    }
-    @keyframes effect {
-      0% {
-          transform: rotateZ(4deg);
-      }
 
-      50% {
-          transform: rotateZ(0deg);
-      }
+// Media Queries for big screens
 
-      10% {
-          transform: rotateZ(-4deg);
-      }
-    }
-  }
-}
-
-
-@media (max-width: 576px) {
+@media (max-width: 1250px) {
   .header {
-    background-position-x: center;
-  }
-  .intro {
-    width: 80%;
-    margin: 0 auto;
-    .subheader-image {
-      margin-left: 0;
-      h1 {
-        font-size: $font-size * 9;
+    .intro {
+      .subheader-image {
+        h1 {
+          font-size: 54px;
+        }
+        h3 {
+          font-size: 16px;
+        }
+        h2 {
+          font-size: 26px;
+        }
+        p {
+          font-size: 18px;
+        }
       }
-      h2 {
-        font-size: $font-size * 8;
-      }
-      h3 {
-        font-size: $font-size * 4.5;
+      .action-btns {
+        margin-top: 50px;
       }
     }
-    .action-btns {
-      display: flex;
-      justify-content: center;
-      a {
-        margin: $margin;
-        font-size: $font-size * 3.5;
-        text-align: center;
+    .hero-image {
+      img {
+        width: 380px;
       }
     }
   }
 }
+
+
+@media (max-width: 1120px) {
+  .header {
+    .intro {
+      .subheader-image {
+        h1 {
+          font-size: 46px;
+        }
+        h3 {
+          font-size: 16px;
+        }
+        h2 {
+          font-size: 24px;
+        }
+      }
+    }
+    .hero-image {
+      img {
+        width: 360px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .header {
+    .intro {
+      padding-left: 10%;
+      .subheader-image {
+        h1 {
+          font-size: 40px;
+        }
+        h3 {
+          font-size: 14px;
+        }
+        h2 {
+          font-size: 22px;
+        }
+        p {
+          font-size: 16px;
+        }
+        a {
+          font-size: 12px;
+        }
+      }
+    }
+    .hero-image {
+      padding-left: 10%;
+      img {
+        width: 310px;
+      }
+    }
+  }
+}
+
+
+// Media Queries for mobile/small screen
+
+@media (max-width: 768px) {
+  .header {
+    grid-template-columns: 1fr;
+    .intro {
+    grid-row: 2;
+    }
+  }
+}
+
+
 
 // White squares
 

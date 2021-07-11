@@ -64,60 +64,11 @@
 }
 
 @media (max-width: 992px) {
-  .about {
-    height: auto; //delete this when adding more stuff into it
-    h1 {
-      padding-top: $padding * 9;
-      text-align: center;
-      color: #45474a;
-      font-weight: bold;
-    }
-  }
-  .aboutme-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    padding-top: $padding * 9;
-  }
+
 }
 
 @media (max-width: 576px) {
-  .about {
-    h1 {
-      font-size: $font-size * 8;
-    }
-  }
-  .presentation {
-    width: 80%;
-  }
-  .stack {
-    width: 80%;
-  }
-  .front-back-others {
-    margin: $margin * 2.5;
-    h3 {
-      font-size: $font-size * 4;
-      font-weight: bold;
-    }
-    .icons-grid {
-      margin-left: 0;
-      display: grid;
-      grid-gap: ($margin * 2) ($margin * 6);
-      width: 60%;
-      text-align: center;
-      .icon {
-        p {
-          font-size: $font-size * 3;
-        }
-        img {
-          width: $width * 24;
-        }
-      }
-    }
-  }
-  .tech-stack {
-    margin-top: $margin * 8;
-    margin-bottom: $margin * 8;
-  }
+
 }
 
 // Page split

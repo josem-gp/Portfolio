@@ -54,6 +54,9 @@
       text-align: center;
       font-size: 11px;
     }
+    p {
+      font-size: 14px;
+    }
   }
 }
 
@@ -143,35 +146,12 @@
 }
 
 @media (max-width: 1200px) {
- .projects-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr; //add one more 1fr (to have 4 per row) when more projects are done
-  grid-gap: $margin * 6;
-  width: 80%;
-  margin: 0 auto;
-  padding-bottom: $padding * 21;
-}
+
 }
 
 
 @media (max-width: 768px) {
-  .projects {
-    h1{
-      font-size: $font-size * 8;
-    }
-  }
-  .projects-grid {
-    display: grid;
-    grid-template-columns: 1fr; //add one more 1fr (to have 4 per row) when more projects are done
-    grid-gap: $margin * 6;
-    width: 80%;
-    margin: 0 auto;
-    padding-bottom: $padding * 21;
-  }
-  .project {
-    height: 316px;
-    margin-top: $margin * 5;
-  }
+
 }
 
 
