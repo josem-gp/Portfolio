@@ -1,45 +1,76 @@
+
+// Design of About page
+
 .about-me {
   position: relative;
-  background: #F9F9F9;
-  height: 100vh;
-  h1 {
-    letter-spacing: 2px;
-  }
+  min-height: 100vh;
 }
 
 .container {
   padding-left: 38px !important;
   padding-top: 60px;
-  #h1-left{
+  h1 {
+    letter-spacing: 2px;
+  }
+  #h1-yellow-left{
     font-size: 44px;
     font-weight: bold;
   }
-  #hr-left {
+  #hr-yellow-left {
     width: 6%;
     margin-left: 0;
     margin-top: 14px;
     border: 3px solid #f2cd62;
   }
-}
-
-.presentation-me {
-  width: 90%;
-  margin-top: $margin * 14;
-  line-height: 1.2;
-  p {
-    text-align: justify;
-    font-size: 20px;
-    margin-top: 26px;
-    margin-bottom: 26px;
+  .presentation-me {
+    width: 90%;
+    margin-top: $margin * 14;
+    line-height: 1.2;
+    p {
+      text-align: justify;
+      font-size: 20px;
+      margin-top: 26px;
+      margin-bottom: 26px;
+    }
   }
 }
 
 
-span {
-  font-weight: bold;
+// Media Queries for big screens
+
+@media (max-width: 1200px) {
+  .container {
+    #h1-yellow-left {
+      font-size: 40px;
+    }
+    .presentation-me {
+      p {
+        font-size: 18px;
+      }
+    }
+  }
 }
 
-// Page split
+// Media Queries for mobile/small screen
+
+@media (max-width: 768px) {
+  .about-me {
+    min-height: 110vh;
+  }
+  .container {
+    #h1-yellow-left {
+      font-size: 38px;
+    }
+    .presentation-me {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+
+
+// Shape divider
 
 .custom-shape-divider-bottom-1625546522 {
     position: absolute;

@@ -1,5 +1,5 @@
 
-// Basic CSS for header and the two main boxes (hero-image & intro)
+// Basic CSS for Hero/Banner
 
 .header {
   display: grid;
@@ -176,13 +176,26 @@
     grid-template-columns: 1fr;
     .intro {
     grid-row: 2;
+    margin-bottom: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    }
+    .hero-image {
+      margin-bottom: 44px;
+      margin-top: 44px;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 330px;
+      }
     }
   }
 }
 
 
 
-// White squares
+// Shape divider
 
 .custom-shape-divider-bottom-1625483349 {
     position: absolute;

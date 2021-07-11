@@ -1,10 +1,22 @@
+// Navbar design by Lewagon
+
+.navbar-lewagon .navbar-collapse {
+  flex-grow: 0;
+}
+
+.navbar-lewagon .navbar-brand img {
+  width: 40px;
+}
+
+
+//Customized design of navbar for default buttons & animations (when hover change color and also on scroll)
+
 .navbar-lewagon {
   justify-content: flex-end !important;
   background: #26426C;
   position: sticky !important;
   top: 0;
   right: 0;
-  // width: fit-content;
   z-index: 1000;
   padding-right: 100px;
   font-size: 16px;
@@ -21,12 +33,12 @@
   }
 }
 
+// Modifying navbar so it is whiter and with white border
 
-.navbar-lewagon .navbar-collapse {
-  flex-grow: 0;
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.navbar-dark .navbar-toggler {
+    border-color: rgba(255,255,255,.5) !important;
 }
-

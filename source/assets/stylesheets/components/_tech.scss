@@ -1,42 +1,46 @@
+
+// Design of Tech Stack page
+
 .tech-stack {
   position: relative;
   background: #26426C;
-  height: 100vh;
+  min-height: 100vh;
   h1 {
     letter-spacing: 2px;
   }
-  button {
-    text-align: left;
-    color: white;
-    background: none;
-    border: none;
-    font-size: 30px;
-    font-weight: bold;
-  }
-  i {
-    margin-right: 12px;
-  }
   .presentation-me {
     margin-top: 100px;
+    button {
+      text-align: left;
+      color: white;
+      background: none;
+      border: none;
+      font-size: 30px;
+      font-weight: bold;
+    }
+    i {
+      margin-right: 12px;
+    }
   }
 }
 
 .header-right {
   width: fit-content;
   float: right;
-  #h1-right {
+  #h1-blue-right {
     font-size: 44px;
     font-weight: bold;
     text-align: right;
     color: white;
   }
-  #hr-right {
+  #hr-blue-right {
     width: 20%;
     margin-left: 0;
     margin-top: 14px;
     border: 3px solid #5B82EF;
   }
 }
+
 
 .icons-flex {
   background: rgba(255,255,255,.1);
@@ -56,6 +60,7 @@
   }
 }
 
+// JavaScrip onClick (open box & caret faces down)
 
 .stacks.active .icons-flex {
   height: auto;
@@ -68,7 +73,58 @@
 }
 
 
-// border
+// Media Queries for big screens
+
+@media (max-width: 1200px) {
+  .container {
+    #h1-blue-right {
+      font-size: 40px;
+    }
+    .presentation-me {
+      button {
+        font-size: 28px;
+      }
+    }
+    .icons-flex {
+      width: 36%;
+      img {
+        width: 24px;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    .icons-flex {
+      width: 50%;
+    }
+  }
+}
+
+// Media Queries for mobile/small screen
+
+@media (max-width: 768px) {
+  .container {
+    #h1-blue-right {
+      font-size: 38px;
+    }
+    .presentation-me {
+      button {
+        font-size: 26px;
+      }
+    }
+    .icons-flex {
+      width: 72%;
+      img {
+        width: 24px;
+      }
+    }
+  }
+}
+
+
+// Shape divider
 
 .custom-shape-divider-bottom-1625558730 {
     position: absolute;
