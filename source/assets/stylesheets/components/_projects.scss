@@ -2,6 +2,7 @@
 // Design of Project page
 
 .projects-filter {
+  overflow-x: clip;
   min-height: 100vh;
   position: relative;
   #h1-blue-left {

@@ -1041,10 +1041,10 @@
 
 @media (max-width: 768px) {
   .device-macbook {
-    transform: scale(0.5) translateX(-51%) translateY(0%) !important
+    transform: scale(0.45) translateX(-60%) translateY(0%) !important
   }
   .device-macbook-short {
-    transform: scale(0.5) translateX(-51%) translateY(0%) !important
+    transform: scale(0.45) translateX(-60%) translateY(0%) !important
   }
   .device-iphone-x {
     transform: scale(0.4) translateX(-158%) translateY(-29%) !important
