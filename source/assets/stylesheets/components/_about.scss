@@ -3,6 +3,7 @@
 
 .about-me {
   position: relative;
+  min-height: 100vh;
 }
 
 .container {
@@ -56,6 +57,9 @@
 // Media Queries for mobile/small screen
 
 @media (max-width: 768px) {
+  .about-me {
+    min-height: auto;
+  }
   .container {
     #h1-yellow-left {
       font-size: 34px;
