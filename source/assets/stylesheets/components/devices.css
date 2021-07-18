@@ -1047,7 +1047,8 @@
     transform: scale(0.45) translateX(-60%) translateY(0%) !important
   }
   .device-iphone-x {
-    transform: scale(0.4) translateX(-158%) translateY(-29%) !important
+    transform: scale(0.4) translateX(-158%) translateY(-29%) !important;
+    /*transform:  scale(0.35) translateX(-183%) translateY(-58%) !important;*/
   }
 }
 
