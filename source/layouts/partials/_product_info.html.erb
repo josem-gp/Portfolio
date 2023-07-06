@@ -1,0 +1,19 @@
+<div class="project-show-descr-<%= orientation %>">
+  <h2><%= product.title %></h2>
+  <h3><%= product.subtitle %></h3>
+  <hr>
+  <p><%= product.description %></p>
+  <div class="stack-icons-show">
+    <% product.tags.each do |tag| %>
+      <i class="<%= tag %>"></i>
+    <% end %>
+  </div>
+  <div class="links-project-show">
+    <% if product.github %>
+      <%= link_to "GITHUB", product.github, class: 'github-btn', target: '_blank' %>
+    <% end %>
+    <% if product.url %>
+      <%= link_to "PROJECT", product.url, class: 'project-btn', target: '_blank' %>
+    <% end %>    
+  </div>
+</div>

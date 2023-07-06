@@ -24,7 +24,8 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 100px;
-  .project-show-descr {
+  .project-show-descr-right {
+    padding-right: 46px;
     h2 {
       color: #5B82EF;
       font-weight: bold;
@@ -67,6 +68,10 @@
       text-align: justify;
     }
   }
+}
+
+.project-show:last-child {
+  padding-bottom: 100px !important;
 }
 
 .stack-icons-show {
@@ -140,7 +145,7 @@
       padding-right: 0 !important;
     }
   }
-  .project-show-descr {
+  .project-show-descr-right {
     h2 {
       font-size: 30px;
     }
@@ -201,6 +206,12 @@
       grid-row: 2;
       // grid-row: 1;
     }
+    .project-show-descr-right {
+      padding-right: 0;
+      h2 {
+        font-size: 32px;
+      }
+    }
     .project-show-descr-left {
       padding-left: 0;
       h2 {
@@ -208,11 +219,8 @@
       }
     }
   }
-  .project-show:nth-child(1) {
+  .project-show:first-child {
     margin-top: 100px !important;
-  }
-  .project-show:nth-child(3) {
-    margin-top: 33% !important;
   }
 }
 

@@ -1,5 +1,5 @@
 <div id="tech-stack" class="tech-stack">
-  <div class="container">
+  <div class="container" style="padding-bottom: 100px;">
     <div class="header-right">
       <div data-aos="fade-left">
         <h1 id="h1-blue-right">MY TECH STACK.</h1>
@@ -7,65 +7,16 @@
       </div>
     </div>
     <div class="presentation-me">
-      <div class="stacks">
-        <button><i class="fas fa-caret-right"></i>FRONT END</button>
-        <div class="icons-flex">
-          <div class="icon">
-            <%= image_tag 'react.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'javascript.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'html.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'css.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'bootstrap.png' %>
+      <% data.tech_stack.each do |stack| %>
+        <div class="stacks">
+          <button><i class="fas fa-caret-right"></i><%= stack.title %></button>
+          <div class="icons-flex">
+            <% stack.tags.each do |tag| %>
+              <i class="<%= tag %> tech-stack-icon"></i>
+            <% end %>
           </div>
         </div>
-      </div>
-      <div class="stacks">
-        <button><i class="fas fa-caret-right"></i>BACK END</button>
-        <div class="icons-flex">
-          <div class="icon">
-            <%= image_tag 'rails.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'postgresql.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'oraclesql.png' %>
-          </div>
-        </div>
-      </div>
-      <div class="stacks">
-        <button><i class="fas fa-caret-right"></i>DEVOPS</button>
-        <div class="icons-flex">
-          <div class="icon">
-            <%= image_tag 'heroku.png' %>
-          </div>
-        </div>
-      </div>
-      <div class="stacks">
-        <button><i class="fas fa-caret-right"></i>OTHER SKILLS</button>
-        <div class="icons-flex">
-          <div class="icon">
-            <%= image_tag 'python.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'figma.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'git.png' %>
-          </div>
-          <div class="icon">
-            <%= image_tag 'github.png' %>
-          </div>
-        </div>
-      </div>
+      <% end %>
     </div>
   </div>
   <div class="custom-shape-divider-bottom-1625558730">

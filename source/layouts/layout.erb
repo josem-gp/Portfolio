@@ -11,7 +11,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>My Portfolio | Jose Manuel Garcia Portillo</title>
+    <!-- Use title if it's in the page YAML frontmatter -->
+    <title><%= data.meta_tags.og.title || "Jose Manuel Garcia Portillo - Full Stack Software Engineer"  %></title>
+    <meta name="description" content="A brief look at what I'm up to">
     <!-- Comment this out when meta tags configured -->
     <%#= display_meta_tags %>
     <%= favicon_tag 'favicon.ico' %>

@@ -995,14 +995,14 @@
 .device-macbook {
   height: 432px;
   width: 633px;
-  transform: scale(0.7) translateX(-10%);
+  transform: scale(0.7);
   /* transform: scale(0.5) translateY(-50%) translateX(-50%); */
 }
 
 .device-macbook-short {
   height: 432px;
   width: 633px;
-  transform: scale(0.7) translateX(-10%);
+  transform: scale(0.7);
   /* transform: scale(0.5) translateY(-50%) translateX(-50%); */
 }
 

@@ -1,0 +1,26 @@
+- title: FRONT END
+  tags: 
+    - devicon-react-original-wordmark
+    - devicon-typescript-plain
+    - devicon-nextjs-original-wordmark
+    - devicon-javascript-plain
+    - devicon-sass-original
+    - devicon-bootstrap-plain-wordmark
+    - devicon-materialui-plain
+- title: BACK END
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-django-plain-wordmark
+    - devicon-postgresql-plain-wordmark
+    - devicon-mysql-plain-wordmark
+    - devicon-oracle-original
+- title: DEVOPS
+  tags:
+    - devicon-docker-plain-wordmark
+    - devicon-kubernetes-plain-wordmark
+    - devicon-jenkins-plain
+    - devicon-heroku-original-wordmark
+- title: OTHER SKILLS
+  tags:
+    - devicon-git-plain-wordmark
+    - devicon-github-original

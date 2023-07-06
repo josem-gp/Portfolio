@@ -195,6 +195,7 @@ GEM
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.7.0)
+    webrick (1.8.1)
     xpath (3.2.0)
       nokogiri (~> 1.8)
 
@@ -213,6 +214,7 @@ DEPENDENCIES
   rspec
   rubocop
   selenium-webdriver
+  webrick
 
 BUNDLED WITH
    2.2.17

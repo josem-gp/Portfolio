@@ -1,0 +1,60 @@
+- title: TASKUP
+  type: desktop
+  images:
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688560944/TaskUp/Screen_Shot_2023-07-05_at_21.30.10_ihz0c8.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688560934/TaskUp/Screen_Shot_2023-07-05_at_21.36.34_zp6xse.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688560934/TaskUp/Screen_Shot_2023-07-05_at_21.37.23_ik4wyo.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688560934/TaskUp/Screen_Shot_2023-07-05_at_21.37.11_otrein.png
+  subtitle: Stay organized, conquer your tasks.
+  description: TaskUp is a user-friendly task management platform that helps you stay organized, 
+      be more productive, and streamline your workflow. With its collaborative features and intuitive tools, 
+      it enables you to effectively manage tasks, accomplish goals, and take control of your work with ease.
+  url: http://68.183.227.48:3001/
+  github: https://github.com/josem-gp/task-manager
+  tags:
+    - devicon-rails-plain
+    - devicon-react-original
+    - devicon-typescript-plain
+    - devicon-postgresql-plain
+    - devicon-digitalocean-plain-wordmark
+- title: E-COMMERCE SITE
+  type: desktop
+  images:
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688678156/Ecommerce/Screen_Shot_2023-07-07_at_6.11.31_w1allr.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688678156/Ecommerce/Screen_Shot_2023-07-07_at_6.11.17_kynnql.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688678155/Ecommerce/Screen_Shot_2023-07-07_at_6.12.17_vmgblo.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/c_scale,h_356,w_573/v1688678162/Ecommerce/Screen_Shot_2023-07-07_at_6.12.51_ilsppa.png
+  subtitle: Empowering Seamless Online Shopping Experiences
+  description: Experience hassle-free online shopping with our reliable and user-friendly e-commerce web application. 
+      Discover a diverse range of products, enjoy secure transactions, and find everything you need in one convenient place. 
+      Shop confidently and conveniently with us.
+  url:
+  github: https://github.com/josem-gp/rails-ecommerce-site
+  tags:
+    - devicon-rails-plain
+    - devicon-javascript-plain
+    - devicon-html5-plain
+    - devicon-sass-original
+    - devicon-postgresql-plain
+    - devicon-digitalocean-plain-wordmark
+- title: BAIKU
+  type: mobile
+  images:
+    - https://res.cloudinary.com/ddokq60ys/image/upload/v1625823918/samples/baiku_rz3tqn.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/v1625824252/samples/baiku1_aes8pf.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/v1625824276/samples/baiku2_bt6idj.png
+    - https://res.cloudinary.com/ddokq60ys/image/upload/v1625833154/samples/baiku3_zykng4.png
+  subtitle: Find A Better Parking Spot
+  description: Baiku is an user-driven progressive web application (PWA) that helps people find the most convenient
+      parking slot nearby, based on the reviews submitted by the community. 
+      Created over 2 weeks as a team project, it aims to grow a net of user-friendly and safe parking slots
+      where to leave your bicycle without any worry.
+  url: 
+  github: https://github.com/josem-gp/baiku-app
+  tags:
+    - devicon-rails-plain
+    - devicon-javascript-plain
+    - devicon-html5-plain
+    - devicon-sass-original
+    - devicon-postgresql-plain
+    - devicon-heroku-original
